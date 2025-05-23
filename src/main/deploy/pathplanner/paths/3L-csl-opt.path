@@ -1,0 +1,59 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 5.310553278688525,
+        "y": 5.061936475409836
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.2521842336737805,
+        "y": 5.6485318481177655
+      },
+      "isLocked": false,
+      "linkedName": "3L-S"
+    },
+    {
+      "anchor": {
+        "x": 0.6832991803278687,
+        "y": 7.387551229508197
+      },
+      "prevControl": {
+        "x": 1.407299792453379,
+        "y": 6.941481989695934
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "csl"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.7488898026315794,
+      "rotationDegrees": 125.00000000000001
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 6.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 125.00000000000001
+  },
+  "reversed": false,
+  "folder": "Left side opt paths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -119.99999999999999
+  },
+  "useDefaultConstraints": false
+}
