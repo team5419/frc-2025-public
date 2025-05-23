@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.027185111899563,
+        "y": 5.7363724754366805
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.513224532614629,
+        "y": 6.3551608556222705
+      },
+      "isLocked": false,
+      "linkedName": "shoove start"
+    },
+    {
+      "anchor": {
+        "x": 6.435409132778384,
+        "y": 6.452155260644105
+      },
+      "prevControl": {
+        "x": 6.687168465747594,
+        "y": 6.268555735953732
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "shoove1"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 145.0
+  },
+  "reversed": false,
+  "folder": "Schooch",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 145.0
+  },
+  "useDefaultConstraints": true
+}
